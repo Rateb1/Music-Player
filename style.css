@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Indie Flower', cursive;
 }
 
 body {
@@ -44,6 +43,8 @@ body {
 h2 {
     font-size: 25px;
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 h3 {
@@ -70,6 +71,18 @@ h3 {
     height: 100%;
     width: 0%;
     transition: width 0.3 linear;
+}
+
+.duration {
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.current-time {
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .duration-warper {
@@ -127,5 +140,3 @@ h3 {
         left: 100px;
     }
 }
-
-;
