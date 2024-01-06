@@ -9,6 +9,7 @@ const nextBtn = document.getElementById("next");
 const prevBtn = document.getElementById("prev");
 const playBtn = document.getElementById("play");
 const progressContainer = document.getElementById("progress-container");
+const ul = document.getElementById("ul");
 
 // List
 const song = [
@@ -43,6 +44,8 @@ function playSong() {
   playBtn.classList.replace("fa-play", "fa-pause");
   playBtn.setAttribute("title", "Pause");
   music.play();
+  ul.classList.replace("off", "on");
+  console.log(ul);
 }
 
 //   Pause
@@ -51,6 +54,8 @@ function pauseSong() {
   playBtn.classList.replace("fa-pause", "fa-play");
   playBtn.setAttribute("title", "Play");
   music.pause();
+  ul.classList.replace("on", "off");
+  console.log(ul);
 }
 
 //   Play or Pause Event

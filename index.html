@@ -18,6 +18,21 @@
       <div class="img-container">
         <img src="img/jacinto-1.jpg" alt="" />
       </div>
+      <div class="loud-container">
+        <ul id="ul" class="wave-menu off">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
       <h2 id="title">Ahmad Zaher(remix)</h2>
       <h3 id="artist">Ahmad</h3>
       <audio src="music/jacinto-1.mp3"></audio>
@@ -32,7 +47,13 @@
       <!-- control -->
       <div class="player-control">
         <i class="fa fa-backward fa-2x" id="prev" title="Previous"></i>
-        <i class="fa fa-play fa-2x main-button" id="play" title="Play"></i>
+        <div class="container" id="play" title="Play">
+          <label>
+            <input class="play-btn" type="checkbox" id="play" title="Play" />
+            <div class="play-icon"></div>
+            <div class="pause-icon"></div>
+          </label>
+        </div>
         <i class="fa fa-forward fa-2x" id="next" title="Next"></i>
       </div>
     </div>
